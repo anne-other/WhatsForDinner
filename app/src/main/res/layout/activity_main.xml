@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
+        android:onClick="onGoToIngredients"
         android:text="@string/ingredients"/>
 
     <Button
@@ -30,5 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
+        android:onClick="onGoToRecipes"
         android:text="@string/recipes"/>
 </LinearLayout>
