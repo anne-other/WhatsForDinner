@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">What\'s For Dinner?</string>
+    <string name="ingredients">My Store Cupboard</string>
+    <string name="recipes">My Recipes</string>
+</resources>
