@@ -2,6 +2,7 @@ package com.anneother.whatsfordinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onGoToIngredients(View view) {
-
+        Intent ingredientIntent = new Intent(this, IngredientsActivity.class);
+        startActivity(ingredientIntent);
     }
 
     public void onGoToRecipes(View view) {
