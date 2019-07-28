@@ -14,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onGoToIngredients(View view) {
+    public void onGoToIngredients(View ingredientView) {
         Intent ingredientIntent = new Intent(this, IngredientsActivity.class);
         startActivity(ingredientIntent);
     }
 
-    public void onGoToRecipes(View view) {
+    public void onGoToRecipes(View recipeView) {
 
     }
 }
