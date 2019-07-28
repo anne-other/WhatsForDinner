@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onGoToRecipes(View recipeView) {
-
+        Intent recipeIntent = new Intent(this, RecipeActivity.class);
+        startActivity(recipeIntent);
     }
 }
